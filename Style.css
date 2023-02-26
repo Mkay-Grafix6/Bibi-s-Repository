@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background-image: linear-gradient(to right top, #040e65, #040f74);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle, #090381,  #050246, #00025c, #21239e);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin: 0 auto;
+  font-size: 80px;
+  color: rgb(66, 0, 151);
+  border-top: 4px solid navy;
+  border-bottom: 4px solid navy;
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(4, 1, 150);
+  text-shadow: 0px 0px 5px white;
+}
+
+.form {
+  background-image: linear-gradient(to right top, #0700d6, #850085);
+  opacity: 0.4;
+  height: 350px;
+  width: 300px;
+  margin: 0 auto;
+  border: hsla(239, 100%, 30%, 0.705) solid 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 10% 10% 10%;
+  box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+}
+
+fieldset {
+  border-top: hidden;
+  border-bottom: hidden;
+  border-left: groove medium white;
+  border-right: groove medium white;
+  padding: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+legend {
+  text-align: center;
+  color: white;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+input {
+  /* height: 20px; */
+  padding: 5px;
+  border: none;
+  color: blue;
+  border-bottom: 3px groove;
+  background: transparent;
+}
+
+input:hover {
+  background-color: azure;
+  cursor: text;
+}
+
+button {
+  box-sizing: border-box;
+  width: 170px;
+  font-size: large;
+  color: white;
+  padding: 5px;
+  font-variant: small-caps;
+  background-color: transparent;
+  border: 3px solid white;
+  margin: auto;
+}
+
+button:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}
+
+a {
+  margin: 5px;
+  box-sizing: border-box;
+  width: 170px;
+  font-size: large;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-variant: small-caps;
+  background-color: transparent;
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}
