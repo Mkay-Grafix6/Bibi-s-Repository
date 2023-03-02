@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "French Script";
+    src: url('FRSCRIPT.TTF');
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-image: url('vegetables.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-family: "French Script";
+        font-size: 80px;
+    }
+
+    .form {
+        width: 250px;
+        height: 300px;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+}

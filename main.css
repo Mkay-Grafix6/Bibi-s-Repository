@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('style.css');
+
+body {
+  background-image: linear-gradient(to top right, #AC3E3E 5%, #4646BB 85%, #AC3E3E 10%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "French Script";
+  font-size: 60px;
+}
+
+.form {
+  border: 3px solid navy;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 3px black;
+  margin: 20px;
+}
+
+fieldset {
+  height: 250px;
+  padding: 15px;
+  border: none;
+  /*border-left: solid white;
+  border-right: solid white;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+legend {
+  text-align: center;
+  font-variant: small-caps;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+input {
+  padding: 3px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px 1px rgb(58, 51, 51);
+}
+
+button:hover {
+  background: #0f3d83;
+}
